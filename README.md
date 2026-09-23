@@ -68,18 +68,6 @@ Good use of spare tokens = existing information x synthesis x reusable output x 
 decision at the end. Bad use = more words, more brainstorming, more documents nobody
 opens.
 
-## See when your tokens actually expire
-
-Most tools don't show this clearly. For Codex there's an unofficial endpoint the
-community found — ask Codex or ChatGPT to query it for you:
-
-```bash
-curl -sS 'https://chatgpt.com/backend-api/wham/rate-limit-reset-credits'
-```
-
-Unofficial, and it needs your authenticated session. Treat it as a rough gauge. The
-point is to know whether you have hours or days.
-
 ---
 
 ## If the answer is "work on this codebase"
