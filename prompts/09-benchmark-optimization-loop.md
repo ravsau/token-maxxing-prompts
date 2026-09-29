@@ -1,4 +1,4 @@
-# 9. Benchmark optimization loop
+# 9. Make it faster (benchmark loop)
 
 Many measure-change-measure cycles. Each cycle is cheap to check and expensive to
 run, which is what spare capacity is for.
@@ -29,6 +29,14 @@ variant: hypothesis, result, kept or reverted. Commit each kept change separatel
 - The frozen benchmark is the guardrail. An agent that can edit the benchmark will
   improve the number and not the code.
 - The reverted variants in the ledger are useful. They tell you what not to try again.
+
+**Field report**
+- DHH converted Campfire from Rails to Rust on a personal subscription, for less than
+  $10 in tokens. His tuning prompt was "Make it go faster". His benchmarks show 20 to
+  95 times more requests per second. He also says the code is ugly and 6 times as
+  verbose. [Post](https://x.com/dhh/status/2104811922348450056)
+- The short prompt worked because the benchmarks already existed. This prompt makes
+  you write them first.
 
 **Origin**
 - Andrej Karpathy's autoresearch: a fixed budget, one metric, keep the change or

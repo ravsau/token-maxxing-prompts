@@ -70,7 +70,7 @@ file cites where the method originated and states the limit of that evidence.
 | 6 | [Mine sessions into a reusable skill](prompts/06-mine-into-skill.md) | The smallest reusable skill/CLI/subagent |
 | 7 | [Repo maintenance sweep](prompts/07-repo-maintenance.md) | Triaged issues/PRs + next high-value actions |
 | 8 | [Large legacy refactor](prompts/08-large-refactor.md) | A phased plan, then verified steps with a commit each |
-| 9 | [Benchmark optimization loop](prompts/09-benchmark-optimization-loop.md) | Measured speed gains + a ledger of every variant |
+| 9 | [Make it faster (benchmark loop)](prompts/09-benchmark-optimization-loop.md) | Measured speed gains + a ledger of every variant |
 | 10 | [Mutation-guided test hardening](prompts/10-mutation-test-hardening.md) | Tests proven to catch one class of bug |
 
 ## Rules for big and unattended runs
