@@ -22,3 +22,12 @@ Show me the workflow you identified and why, then the artifact.
 **Notes**
 - The best token sink there is: it makes every later run cheaper.
 - Ask for the *smallest* version — otherwise you get an over-engineered framework.
+
+**Origin**
+- Anthropic: ask the agent to capture its successful approaches and common mistakes
+  in a skill.
+  [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
+- OpenAI: "Keep each skill focused on one job."
+  [Skills in ChatGPT and Codex](https://learn.chatgpt.com/docs/build-skills)
+- Limit: no source measures the benefit, and no source describes a pass over many old
+  sessions.

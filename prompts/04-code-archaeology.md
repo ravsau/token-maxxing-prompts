@@ -23,3 +23,13 @@ Do not delete or change anything. This is a mapping pass — I decide what to cu
 **Notes**
 - Explicitly read-only. The value is the map, not premature deletion.
 - Great for a codebase you inherited or haven't touched in months.
+- The agent sees the code, not production. Code with no static callers can still run.
+  Check the candidates against your logs before you delete.
+
+**Origin**
+- Meta, SCARF: dead-code removal from a dependency graph plus runtime usage logs.
+  [Engineering at Meta](https://engineering.fb.com/2023/10/24/data-infrastructure/automating-dead-code-cleanup/)
+- Google, Sensenmann: the same method at Google.
+  [Google Testing Blog](https://testing.googleblog.com/2023/04/sensenmann-code-deletion-at-scale.html)
+- Limit: both are automated pipelines with production logs, not LLM agents. This prompt
+  uses their evidence rule, not their tooling.

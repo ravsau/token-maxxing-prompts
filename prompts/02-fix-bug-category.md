@@ -25,3 +25,11 @@ Open the work as a single focused commit/PR I can review in one sitting.
 **Notes**
 - The verification command is the whole point — no "done" claim without a passing run.
 - Good categories: one lint rule, one exception type, one deprecated API call.
+
+**Origin**
+- Anthropic: "Give Claude a way to verify its work."
+  [Best practices](https://code.claude.com/docs/en/best-practices)
+- OpenAI: put "Done when:" in the prompt.
+  [Codex best practices](https://learn.chatgpt.com/guides/best-practices)
+- Google: large changes are split into small shards, and each shard is tested alone.
+  [Software Engineering at Google, ch. 22](https://abseil.io/resources/swe-book/html/ch22.html)
