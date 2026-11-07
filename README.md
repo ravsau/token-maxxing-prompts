@@ -72,6 +72,7 @@ file cites where the method originated and states the limit of that evidence.
 | 8 | [Large legacy refactor](prompts/08-large-refactor.md) | A phased plan, then verified steps with a commit each |
 | 9 | [Make it faster (benchmark loop)](prompts/09-benchmark-optimization-loop.md) | Measured speed gains + a ledger of every variant |
 | 10 | [Mutation-guided test hardening](prompts/10-mutation-test-hardening.md) | Tests proven to catch one class of bug |
+| 11 | [Find the implicit state machines](prompts/11-implicit-state-machines.md) | A map of hidden lifecycles + the bugs they allow |
 
 ## Rules for big and unattended runs
 
