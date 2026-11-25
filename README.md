@@ -55,6 +55,10 @@ If the short one returns shallow ideas, use the
 Only spend leftover tokens on work that leaves a **durable artifact**: something
 committed, documented, decided, or reusable after the reset.
 
+Prefer outcome maxxing over token maxxing. Spending 500k tokens redesigning five
+websites is token maxxing. Spending them on a tested method that keeps improving
+fifty websites is outcome maxxing.
+
 ## Ready-made prompts
 
 The meta prompt often points at a repo. These are the jobs it usually names. Each
@@ -73,6 +77,20 @@ file cites where the method originated and states the limit of that evidence.
 | 9 | [Make it faster (benchmark loop)](prompts/09-benchmark-optimization-loop.md) | Measured speed gains + a ledger of every variant |
 | 10 | [Mutation-guided test hardening](prompts/10-mutation-test-hardening.md) | Tests proven to catch one class of bug |
 | 11 | [Find the implicit state machines](prompts/11-implicit-state-machines.md) | A map of hidden lifecycles + the bugs they allow |
+
+For a whole portfolio of projects, not one repo:
+
+| # | Prompt | What you get back |
+|---|--------|-------------------|
+| 12 | [UI design tournament](prompts/12-ui-design-tournament.md) | 8-12 page versions scored, best ideas merged into one PR |
+| 13 | [Revenue leak investigation](prompts/13-revenue-leak-investigation.md) | Ranked leaks with sources + the top fix on a branch |
+| 14 | [Best-in-class product challenge](prompts/14-best-in-class-challenge.md) | A rubric, 10 competitors scored, one dimension you win |
+| 15 | [Evaluation harness for your agents](prompts/15-agent-eval-harness.md) | The cheapest model/setup that passes each task type |
+| 16 | [Customer journey testing](prompts/16-customer-journey-testing.md) | Friction points from persona runs + fixes in a PR |
+| 17 | [Go-to-market research](prompts/17-gtm-research.md) | Buyer, channels, 25 sourced prospects, draft messages |
+| 18 | [Video back-catalog optimization](prompts/18-video-back-catalog.md) | 15 ranked revival experiments with draft metadata |
+| 19 | [Portfolio investment committee](prompts/19-portfolio-investment-committee.md) | Scale / maintain / pivot / shut down, with evidence |
+| 20 | [Improve the machine](prompts/20-improve-the-machine.md) | 10 compounding improvements, tested and packaged |
 
 ## Rules for big and unattended runs
 

@@ -29,6 +29,9 @@ smallest fix. Do not change any code — this pass is read-only.
 - Ask it to verify each finding before reporting — kills the plausible-but-wrong noise.
 - The main thread stays on the large model. It does the verification, which is where
   a smaller model makes mistakes.
+- Production readiness version: add reviewers for dependencies, accessibility, cloud
+  cost and failure recovery, run it across every repo, then follow with
+  [prompt 2](02-fix-bug-category.md) to fix the top category. A report alone changes nothing.
 
 **Origin**
 - Anthropic's Code Review for Claude Code uses the same shape: parallel agents, one
